@@ -4310,3 +4310,32 @@
   width:283px;
   word-wrap:break-word;
 }
+#u310 {
+  position:absolute;
+  left:3px;
+  top:75px;
+  width:303px;
+  height:34px;
+}
+#u310_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:303px;
+  height:34px;
+}
+#u310_img.selected {
+}
+#u310.selected {
+}
+#u310_img.mouseOver {
+}
+#u310.mouseOver {
+}
+#u311 {
+  position:absolute;
+  left:10px;
+  top:8px;
+  width:283px;
+  word-wrap:break-word;
+}

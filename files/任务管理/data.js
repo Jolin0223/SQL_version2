@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"任务管理.html",
-  "generationDate":new Date(1499226109657.73),
+  "generationDate":new Date(1499243560859.04),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "abc"],
@@ -11841,6 +11841,212 @@
                   "images":{
                     "normal~":"images/任务管理/选项1_u108.png",
                     "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}},
+{
+                  "id":"afd86b1533f346a7990793bf031a7f73",
+                  "label":"选型2",
+                  "parentDynamicPanel":"e020887e605441b19d91c8c49e329659",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":75},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"da591e052473463581deaaefba8265e4",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e020887e605441b19d91c8c49e329659",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":75},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["e020887e605441b19d91c8c49e329659"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[&nbsp; This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["58ac07d17796423fa6f4e6ff46daf0e3"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[  This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["545062ac446c49ccb18bb99a5c1a7173"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["0ca74e8b07c04fc69d238d5fd60f0db2"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["642b00a68d2f40ddad095bb00eb82483"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["242501bd20a74b1fac7b676e3cfc1322"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["4d79db1b24bf45038b3b40da6d830249"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型2 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["afd86b1533f346a7990793bf031a7f73"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 不明 = &quot;false&quot;, 且<br> 选中状态值 选项1 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["da890788f9014f8fb3b83ef1fe3f78eb"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
                     "mouseOver~":"images/任务管理/选项1_u108_selected.png"}}],
               "style":{
                 "fill":{
@@ -12474,4 +12680,8 @@
     "a1f24c697d9e4179b979897349f8a2b8":{
       "scriptId":"u308"},
     "b317de516e1e4b719232f2e5fb51d24e":{
-      "scriptId":"u309"}}});
+      "scriptId":"u309"},
+    "afd86b1533f346a7990793bf031a7f73":{
+      "scriptId":"u310"},
+    "da591e052473463581deaaefba8265e4":{
+      "scriptId":"u311"}}});
