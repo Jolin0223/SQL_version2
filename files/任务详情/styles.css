@@ -532,7 +532,7 @@
   top:76px;
   width:83px;
   height:30px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
   font-weight:400;
   font-size:20px;
 }
@@ -624,7 +624,7 @@
   top:0px;
   width:145px;
   height:64px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u43_img {
   position:absolute;
@@ -896,7 +896,7 @@
   top:0px;
   width:124px;
   height:64px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u67_img {
   position:absolute;
@@ -990,9 +990,8 @@
   top:177px;
   width:65px;
   height:1px;
-  font-family:'Microsoft YaHei';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Microsoft YaHei Bold', 'Microsoft YaHei';
+  font-weight:650;
   font-size:16px;
 }
 #u74_img {
@@ -1015,7 +1014,7 @@
   top:219px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u76_img {
   position:absolute;
@@ -1037,7 +1036,7 @@
   top:219px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u78_img {
   position:absolute;
@@ -1059,7 +1058,7 @@
   top:271px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u80_img {
   position:absolute;
@@ -1081,7 +1080,7 @@
   top:271px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u82_img {
   position:absolute;
@@ -1103,7 +1102,7 @@
   top:414px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u84_img {
   position:absolute;
@@ -1125,7 +1124,7 @@
   top:414px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u86_img {
   position:absolute;
@@ -1147,7 +1146,7 @@
   top:464px;
   width:127px;
   height:20px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u88_img {
   position:absolute;
@@ -1197,9 +1196,8 @@
   top:363px;
   width:89px;
   height:27px;
-  font-family:'Microsoft YaHei';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Microsoft YaHei Bold', 'Microsoft YaHei';
+  font-weight:650;
   font-size:20px;
 }
 #u91_img {
@@ -1222,7 +1220,7 @@
   top:466px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u93_img {
   position:absolute;
@@ -1244,7 +1242,7 @@
   top:520px;
   width:144px;
   height:20px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u95_img {
   position:absolute;
@@ -1266,7 +1264,7 @@
   top:518px;
   width:127px;
   height:20px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u97_img {
   position:absolute;
@@ -1347,7 +1345,7 @@
   top:754px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u102_img {
   position:absolute;
@@ -1397,7 +1395,7 @@
   top:1000px;
   width:65px;
   height:32px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u105_img {
   position:absolute;
@@ -1431,7 +1429,7 @@
   top:1000px;
   width:65px;
   height:32px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u107_img {
   position:absolute;
@@ -1461,7 +1459,7 @@
   top:219px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u109_img {
   position:absolute;
@@ -1483,7 +1481,7 @@
   top:271px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u111_img {
   position:absolute;
@@ -1505,7 +1503,7 @@
   top:414px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u113_img {
   position:absolute;
@@ -1527,7 +1525,7 @@
   top:464px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u115_img {
   position:absolute;
@@ -1549,7 +1547,7 @@
   top:520px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u117_img {
   position:absolute;
@@ -1571,7 +1569,7 @@
   top:219px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u119_img {
   position:absolute;
@@ -1593,7 +1591,7 @@
   top:271px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u121_img {
   position:absolute;
@@ -1960,7 +1958,7 @@
   top:317px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u146_img {
   position:absolute;
@@ -1982,7 +1980,7 @@
   top:317px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u148_img {
   position:absolute;
@@ -2004,7 +2002,7 @@
   top:317px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u150_img {
   position:absolute;
@@ -2026,7 +2024,7 @@
   top:317px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u152_img {
   position:absolute;
@@ -2048,7 +2046,7 @@
   top:414px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u154_img {
   position:absolute;
@@ -2070,7 +2068,7 @@
   top:466px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u156_img {
   position:absolute;
@@ -2092,7 +2090,7 @@
   top:514px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u158_img {
   position:absolute;
@@ -2417,7 +2415,7 @@
   top:664px;
   width:127px;
   height:24px;
-  font-family:'Microsoft YaHei';
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
 }
 #u181_img {
   position:absolute;
